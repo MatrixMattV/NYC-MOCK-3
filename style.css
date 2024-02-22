@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url("pexels-josh-hild-20118807.jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    font-size: 26px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: aliceblue;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.main-content p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 700px;
+    color: aliceblue;
+}
+
+.main-content button {
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 12px 28px;
+    letter-spacing: .6px;
+    border-radius: 6px;
+    background: yellow;
+    color: black;
+    cursor: pointer;
+}
